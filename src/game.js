@@ -1,4 +1,5 @@
 import { Gameboard } from "./modules/gameboard.js";
+import { Player } from "./modules/player.js";
 
 console.log("Initial Board: ", Gameboard.getBoard());
 
@@ -12,3 +13,7 @@ console.log('Try placing X at 0 again:', Gameboard.placeMarker(0, 'X')); // Shou
 
  Gameboard.resetBoard();                                                           
 console.log('After reset:', Gameboard.getBoard());   
+
+const player1 = Player('Alice', 'X');  
+ console.log(player1.name);                                                     
+  console.log(player1.marker);
