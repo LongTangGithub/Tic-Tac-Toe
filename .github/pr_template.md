@@ -16,9 +16,8 @@
 
 - *Add any screenshots (Usually UI related or important changes that need to be shared)*
 
-## Additional Comments
+## Design Decisions
 
-- *(Optional) Anything else that you may want to add.*
 
 # Checklist
 
